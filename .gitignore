@@ -1,11 +1,21 @@
-.ipynb_checkpoints/
-chave.txt
-.venv/
+# Segredos
+.env
+# Ambiente virtual
 venv/
-BD/
+.venv/
+
+# Banco de dados: a pasta BD/ fica no repositório, o conteúdo não
+BD/*
+!BD/.gitkeep
 *.db
 *.db-shm
 *.db-wal
+
+# Cache do agente
 notebooks/cache/
+cache/
+
+# Lixo do Python e do Jupyter
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
