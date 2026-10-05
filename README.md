@@ -41,7 +41,7 @@ cp .env.example .env               # Windows (PowerShell): Copy-Item .env.exampl
 # abra o .env e troque sk-or-v1-sua-chave-aqui pela sua chave
 
 # 3. Banco: coloque o arquivo em BD/cinerocket.db
-mkdir -p data
+mkdir -p BD
 
 # 4. Abrir o notebook
 jupyter lab cinedata_agente_sql.ipynb
