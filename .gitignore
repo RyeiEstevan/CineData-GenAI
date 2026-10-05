@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+chave.txt
+.venv/
+venv/
+BD/
+*.db
+*.db-shm
+*.db-wal
+notebooks/cache/
+__pycache__/
+*.pyc
