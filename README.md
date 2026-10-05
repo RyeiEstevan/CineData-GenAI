@@ -1,4 +1,4 @@
-# CineData Analytics: Agente Text-to-SQL
+# CineData GEN-AI: Agente Text-to-SQL
 
 Agente que responde, em português, perguntas sobre o catálogo de filmes da CineData. Ele transforma a pergunta em SQL, executa em modo **somente leitura** na camada Gold (`cinerocket.db`) e explica o resultado, para quem não sabe SQL.
 
